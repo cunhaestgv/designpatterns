@@ -1,0 +1,22 @@
+package com.es.composite;
+
+public class Link extends Menu {
+	protected String URL;
+	
+	public Link(){
+	}
+	
+	public String getURL() {
+		return URL;
+	}
+	
+	public void setURL(String URL) {
+		this.URL = URL;
+	}
+	
+	public void showOptions() {
+		System.out.println("-----------------------");
+		System.out.println("Option: " + this.label);
+		System.out.println("Link: " + this.URL);
+	}
+}

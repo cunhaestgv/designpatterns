@@ -15,8 +15,7 @@ public class Link extends Menu {
 	}
 	
 	public void showOptions() {
-		System.out.println("-----------------------");
-		System.out.println("Option: " + this.label);
-		System.out.println("Link: " + this.URL);
+		System.out.println(this.label);
+		System.out.println(this.URL);
 	}
 }

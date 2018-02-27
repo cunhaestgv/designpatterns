@@ -17,8 +17,7 @@ public class SubMenu extends Menu {
 	}
 	
 	public void showOptions() {
-		System.out.println("================================================");
-		System.out.println("Menu: " + this.label);
+		System.out.println(this.label);
 		for(Menu m: menus)
 			m.showOptions();
 	}

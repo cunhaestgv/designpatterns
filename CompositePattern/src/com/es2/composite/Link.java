@@ -1,4 +1,4 @@
-package com.es.composite;
+package com.es2.composite;
 
 public class Link extends Menu {
 	protected String URL;

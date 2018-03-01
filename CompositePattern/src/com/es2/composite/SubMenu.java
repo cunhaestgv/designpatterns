@@ -1,4 +1,4 @@
-package com.es.composite;
+package com.es2.composite;
 import java.util.ArrayList;
 
 public class SubMenu extends Menu {

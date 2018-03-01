@@ -1,4 +1,4 @@
-package com.es.composite;
+package com.es2.composite;
 
 public abstract class Menu {
 	protected String label;

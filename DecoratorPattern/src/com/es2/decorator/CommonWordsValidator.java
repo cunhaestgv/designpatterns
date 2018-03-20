@@ -7,6 +7,7 @@ import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.ProtocolException;
 import java.net.URL;
+import java.net.URLEncoder;
 
 /**
  * 
@@ -58,6 +59,7 @@ public class CommonWordsValidator extends Decorator {
 	        result.append(line);
 	     }
 	     rd.close();
+	     
 	     return result.toString();
 	}
 

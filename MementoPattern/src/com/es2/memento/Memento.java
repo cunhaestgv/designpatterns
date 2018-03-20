@@ -25,7 +25,4 @@ public class Memento {
 	public ArrayList<String> getState() {
 		return this.studentNames;
 	}
-
-	
-
 }

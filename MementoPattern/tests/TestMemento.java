@@ -1,6 +1,9 @@
+
 import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.AfterAll;
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -10,15 +13,23 @@ import com.es2.memento.ExistingStudentException;
 import com.es2.memento.NotExistingSnapshotException;
 import com.es2.memento.Server;
 
+
 class TestMemento {
+
+	@BeforeAll
+	static void setUpBeforeClass() throws Exception {
+	}
+
+	@AfterAll
+	static void tearDownAfterClass() throws Exception {
+	}
 
 	@BeforeEach
 	void setUp() throws Exception {
 	}
 
-	@AfterAll
-	static void tearDown() throws Exception {
-		
+	@AfterEach
+	void tearDown() throws Exception {
 	}
 
 	@DisplayName("Test if the server records student names")
@@ -40,6 +51,10 @@ class TestMemento {
 		assertThrows(ExistingStudentException.class,()->{
 			s.addStudent("Maria José");
 		});
+		for (StackTraceElement ste : Thread.currentThread().getStackTrace()) {
+		    System.out.println(ste);
+		}
+
 	}
 	
 	@Test

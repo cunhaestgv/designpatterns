@@ -1,0 +1,10 @@
+@usecase
+A <a target="_blank" href="https://www.tutorialspoint.com/software_testing_dictionary/decision_coverage_testing.htm ">cobertura das decisões</a> é uma das <b>técnicas de teste white-box</b> mais populares. Esta técnica garante que cada decisão associada a uma estrutura condicional é coberta por pelo menos um teste, para todo o espaço de resultados (verdadeiro/falso).<br/><h1>Exercício</h1>Considere a <a href="files/TestDecorator/resources/DecoratorPattern.jar">implementação do padrão Decorator</a>.<br/><br/><input type="checkbox"/>Crie os testes para validar a condição do <dfn>if</dfn> do método <dfn>auth</dfn> da classe <dfn>Auth</dfn>.<br/><pre><code>public void auth(String username, String password) throws AuthException {<br/>   if(! username.equals("admin") || !password.equals("admin"))<br/>      throw new AuthException();<br/>}<br/></code></pre><input type="checkbox"/>Crie os testes para validar a condição do <dfn>if</dfn> do método <dfn>auth</dfn> da classe <dfn>CommonWordsValidator</dfn>.<br/><pre><code>public void auth(String username, String password) throws AuthException, IOException {<br/>   String dicWord = getHTTPRequest(password);<br/>   if(dicWord.length()<10) throw new AuthException();<br/>   else super.auth(username, password);<br/>}<br/></code></pre><div class="inverted"><img src="think.png"></img>Todos os ramos de execução foram testados exaustivamente?<br/>De que forma as falhas na cobertura das decisões podem estar relacionadas com as limitações da aplicação desta técnica em testes white-box?</div>
+@methods
+
+@deadline
+2018-03-22 20:10
+@group
+esII20172018
+@exectype
+AspectJProject

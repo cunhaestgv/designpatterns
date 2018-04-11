@@ -77,7 +77,7 @@ public class ArrayUtils
 	 */
 	public static void findAndPrintPairs(int[] list, int target)
 	{	
-		if(!(list != null)) throw new AssertionError("failed precondition");
+		if(!(list != null && target > 0)) throw new AssertionError("failed precondition");
 
 		for(int i = 0; i < list.length; i++)
 		{	for(int j = i + 1; j < list.length; j++)
@@ -89,7 +89,7 @@ public class ArrayUtils
 		}
 	}
 
-
+	
 	/**
 	 * Sort the elements of list so that they are in ascending order
 	 * @param list receives the list of values
@@ -104,7 +104,7 @@ public class ArrayUtils
 		for(int i = 0; i < list.length && changed; i++)
 		{	changed = false;
 			for(int j = 0; j < list.length - i - 1; j++)
-			{	assert (j > 0) && (j + 1 < list.length) : "loop counter j " + j +
+			{	assert (j >= 0) && (j + 1 < list.length) : "loop counter j " + j +
 					"is out of bounds.";
 				if(list[j] > list[j+1])
 				{	changed = true;
@@ -115,7 +115,7 @@ public class ArrayUtils
 			}
 		}
 
-		assert isAscending( list );
+		if(! isAscending( list )) throw new AssertionError();
 	}
 
 	/**

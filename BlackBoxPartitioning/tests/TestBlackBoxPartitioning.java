@@ -1,5 +1,7 @@
 import static org.junit.jupiter.api.Assertions.*;
 
+import java.io.ByteArrayOutputStream;
+import java.io.PrintStream;
 import java.util.Arrays;
 
 import org.junit.jupiter.api.AfterAll;
@@ -12,13 +14,16 @@ import com.es2.blackboxpartitioning.ArrayUtils;
 import com.es2.blackboxpartitioning.Die;
 
 class TestBlackBoxPartitioning {
+	private final static ByteArrayOutputStream outContent = new ByteArrayOutputStream();
 
 	@BeforeAll
 	static void setUpBeforeClass() throws Exception {
+		System.setOut(new PrintStream(outContent));
 	}
 
 	@AfterAll
 	static void tearDownAfterClass() throws Exception {
+		System.setOut(System.out);
 	}
 
 	@BeforeEach
@@ -115,5 +120,62 @@ class TestBlackBoxPartitioning {
 		assertTrue(Arrays.equals(new int[]{20,19}, ArrayUtils.goodResize(lst,2)));
 		assertTrue(ArrayUtils.goodResize(lst,22).length == 22);
 	}
-
+	
+	
+	@Test
+	void testFindAndPrintPairs() {
+		int[] lst = new int[20];
+		for(int i =0; i< 20; i++) lst[i] = i;
+		
+		ArrayUtils.findAndPrintPairs(lst, 1);
+		assertTrue(outContent.toString().contains("The two elements at indices 0 and 1 are 0 and 1 add up to 1"));
+		outContent.reset();
+		
+		ArrayUtils.findAndPrintPairs(new int[0], 1);
+		assertTrue(outContent.toString().equals(""));
+		outContent.reset();
+		
+		assertThrows(AssertionError.class, ()->{
+			ArrayUtils.findAndPrintPairs(lst, 0);			
+		});
+	}
+	
+	@Test
+	void testShowList() {
+		int[] lst = new int[20];
+		for(int i =0; i< 20; i++) lst[i] = i;
+		
+		ArrayUtils.showList(lst);
+		assertTrue(outContent.toString().contains("0 1 2 3 4 5"));
+		outContent.reset();
+		ArrayUtils.showList(new int[0]);
+		assertTrue(outContent.toString().equals(""));
+		
+		assertThrows(AssertionError.class, ()->{
+			ArrayUtils.findAndPrintPairs(lst, 0);			
+		});
+	}
+	
+	@Test
+	void testBubbleSort() {
+		int[] lst = new int[20];
+		for(int i =0; i< 20; i++) lst[i] = 20-i;
+		
+		ArrayUtils.bubblesort(lst);
+	}
+	
+	@Test
+	void testIsAscending() {
+		int[] lst = new int[2];
+		
+		lst[0]= 1;
+		lst[1]= 2;
+		assertTrue(ArrayUtils.isAscending(lst));
+		
+		assertTrue(ArrayUtils.isAscending(new int[0]));
+		
+		lst[0]= 2;
+		lst[1]= 1;		
+		assertFalse(ArrayUtils.isAscending(lst));		
+	}
 }

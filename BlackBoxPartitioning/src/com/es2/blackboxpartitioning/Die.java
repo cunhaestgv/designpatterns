@@ -48,7 +48,7 @@ public class Die
      * @param numSides specifies the number of sides of the die
      * @param result specifies the current result of the die, indicated by the top side<br>
      * pre: numSides > 1, 1 <= result <= numSides<br>
-     * post: getNumSides() = numSides, getResult() = 1<br>
+     * post: getNumSides() = numSides, getResult() = result<br>
      * AssertionError exception will be generated if the preconditions are not met
      */
     public Die(int numSides, int result)

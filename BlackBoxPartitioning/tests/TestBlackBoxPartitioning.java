@@ -164,6 +164,7 @@ class TestBlackBoxPartitioning {
 		ArrayUtils.bubblesort(lst);
 	}
 	
+
 	@Test
 	void testIsAscending() {
 		int[] lst = new int[2];

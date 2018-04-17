@@ -24,7 +24,7 @@ public class GenericList{
      * @param obj The element to add, which should be other than null.
      */
     public void insert(int pos, Object obj){
-    		assert obj != null : "Object should not be null";
+    		assert obj != null : "Object should not be null";    		
     		assert pos >=0 && pos <= iSize : "pos should be within the interval";
     		
         ensureCapacity();

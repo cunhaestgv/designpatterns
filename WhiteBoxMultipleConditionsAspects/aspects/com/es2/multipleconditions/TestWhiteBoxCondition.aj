@@ -70,7 +70,7 @@ public aspect TestWhiteBoxCondition {
 			methodsAndParameters[12] = null;
 	}
 
-	@Before("execution(* tearDownAfterClass(..))")
+	@Before("execution(End.new(..))")
 	public  void calln() {
 		String errors = "";
 

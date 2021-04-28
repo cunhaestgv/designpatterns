@@ -7,31 +7,31 @@ import java.io.ByteArrayOutputStream;
 
 public aspect TestBlackBoxPartitioningAspect{
 	String[] methodsAndParameters = {
-			"Missing Die()",
-			"Missing Die(int)",
-			"Missing Die(int, int)",
-			"Missing key value when return Die.getNumSides()",
-			"Missing key value when return Die.getResult()",
-			"Missing incorrect value when return Die.getNumSides()",
-			"Missing incorrect value when return Die.getNumSides()",
-			"Missing roll()",
-			"Missing toString()",
-			"Missing size=0 findMin()",
-			"Missing size>0 findMin()",
-			"Missing negative size goodResize()",
-			"Missing vec.length < newSize goodResize()",
-			"Missing vec.length >= newSize goodResize()",
-			"Missing findAndPrintPairs(..) comb 1",
-			"Missing findAndPrintPairs(..) comb 2",
-			"Missing findAndPrintPairs(..) comb 3",
-			"Missing findAndPrintPairs(..) comb 4",
-			"Missing ByteArrayOutputStream manipulation ",
-			"Missing showList(..) comb 1",
-			"Missing showList(..) comb 2",
-			"Missing isAscending(..) comb 1",
-			"Missing isAscending(..) comb 2",
-			"Missing isAscending(..) return comb 1",
-			"Missing isAscending(..) return comb 2",
+			"Missing test for constructor of Die",
+			"Missing test for constructor of Die",
+			"Missing test for constructor of Die",
+			"Missing test for Die.getNumSides()",
+			"Missing test for Die.getResult()",
+			"Missing test for Die.getNumSides()",
+			"Missing test for Die.getNumSides()",
+			"Missing test for roll()",
+			"Missing test for toString()",
+			"Missing test for findMin()",
+			"Missing test for findMin()",
+			"Missing test for goodResize()",
+			"Missing test for goodResize()",
+			"Missing test for goodResize()",
+			"Missing test for findAndPrintPairs(..)",
+			"Missing test for findAndPrintPairs(..)",
+			"Missing test for findAndPrintPairs(..)",
+			"Missing test for findAndPrintPairs(..)",
+			null,
+			"Missing test for showList(..)",
+			"Missing test for showList(..)",
+			"Missing test for isAscending(..)",
+			"Missing test for isAscending(..)",
+			"Missing test for isAscending(..)",
+			"Missing test for isAscending(..)",
 	};
 
 	@Before("execution(Die.new(..))")
@@ -114,7 +114,7 @@ public aspect TestBlackBoxPartitioningAspect{
 	
 	@Before("call(* ByteArrayOutputStream.toString(..))")
 	public void call8(){
-		if(methodsAndParameters[18].endsWith("|||"))	
+		if(methodsAndParameters[18] != null && methodsAndParameters[18].endsWith("|||"))	
 			methodsAndParameters[18] = null;
 		else methodsAndParameters[18] += "|";
 		
@@ -150,7 +150,7 @@ public aspect TestBlackBoxPartitioningAspect{
 	}
 	
 
-	@Before("execution(* tearDownAfterClass(..))")
+	@Before("execution(End.new(..))")
 	public  void calln() {
 		String errors = "";
 

@@ -1,10 +1,10 @@
 @usecase
-A <a target="_blank" href="https://www.tutorialspoint.com/software_testing_dictionary/condition_coverage_testing.htm">cobertura das condições</a> é uma <b>técnica de teste white-box</b> mais completa do que a cobertura das decisões.<br/><br/>Esta técnica garante que cada condição pertencente a uma decisão associada a uma estrutura condicional é coberta por pelo menos um teste, para todo o espaço de resultados (verdadeiro/falso). Desta forma, todas as condições são avaliadas pelo menos uma vez.<br/><h1>Exercício</h1>Considere a <a target="_blank" href="files/TestWhiteBoxCondition/doc/index.html">especificação de 2 métodos</a>.<br/><br/><input type="checkbox"/>Crie os testes para validar as condições de ambos os métodos.<br/><br/><br/><div class="inverted"><img src="think.png"></img>Quais são as limitações da cobertura de condições que podem levar a que um determinado ramo de execução não seja coberto?</div>
+<h1>Testes White-box: Cobertura de Condições</h1><p>A <a href="https://www.tutorialspoint.com/software_testing_dictionary/condition_coverage_testing.htm" target="_blank" rel="noopener">cobertura das condições</a> é uma <strong>técnica de teste white-box</strong> mais completa do que a cobertura das decisões.<br /><br />Esta técnica garante que cada <strong>condição pertencente a uma decisão</strong> associada a uma <strong>estrutura condicional</strong> é <strong>coberta por pelo menos um teste</strong>, para <strong>todo o espaço de resultados</strong> (verdadeiro/falso). Desta forma, todas as condições são avaliadas pelo menos uma vez.</p><h3>Exercício</h3><p>Crie os <strong>testes</strong> para validar as <strong>condições</strong> de <strong>ambos os métodos</strong> descritos na documentação <strong>JavaDocs</strong>.</p><p>[Para refletir]&nbsp;<strong>Que limitações da cobertura de condições podem levar a que um determinado ramo de execução não seja coberto?</strong></p>
 @methods
-
+Documentação <a target='_blank' href='files/TestWhiteBoxCondition/doc/index.html'>JavaDocs</a>
 @deadline
-2018-03-22 20:10
+2019-03-30 23:55
 @group
-esII20172018
+es2201819
 @exectype
 AspectJProject

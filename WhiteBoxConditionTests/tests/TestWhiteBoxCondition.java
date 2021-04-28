@@ -17,6 +17,7 @@ class TestWhiteBoxCondition {
 
 	@AfterAll
 	static void tearDownAfterClass() throws Exception {
+		new End();
 	}
 
 	@BeforeEach

@@ -14,6 +14,7 @@ import com.es2.decorator.Auth;
 import com.es2.decorator.AuthException;
 import com.es2.decorator.AuthInterface;
 import com.es2.decorator.CommonWordsValidator;
+import com.es2.decorator.End;
 import com.es2.decorator.Logging;
 
 class TestDecorator {
@@ -31,6 +32,7 @@ class TestDecorator {
 	@AfterAll
 	public static void tearDownAfterClass() {
 	    System.setOut(System.out);
+	    End e = new End();
 	}
 
 	@DisplayName("Test if authentication is performed correctly using admin/admin")

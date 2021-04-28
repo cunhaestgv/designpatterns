@@ -2,10 +2,17 @@ package com.es2.wsclient;
 
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.ProceedingJoinPoint;
+import org.aspectj.lang.annotation.After;
 import org.aspectj.lang.annotation.AfterReturning;
 import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Before;
+import org.junit.jupiter.api.AfterAll;
+
 import java.net.URL;
+
+import static org.junit.jupiter.api.Assertions.assertThrows;
+
+import java.lang.reflect.Method;
 import java.net.HttpURLConnection;
 
 public aspect WebServiceTest {
@@ -18,6 +25,17 @@ public aspect WebServiceTest {
 			"Test Invalid Response Code 2"
 			
 	};
+	
+	@After("initialization(TestWebService.new(..))")
+	public  void call5(JoinPoint jp) {
+			try {
+				Method m = jp.getTarget().getClass().getDeclaredMethod("tearDownAfterClass");
+				if (m.getAnnotation(AfterAll.class) == null) 
+					throw new AssertionError("tearDownAfterClass() method missing...");
+			} catch (NoSuchMethodException e) {
+				throw new AssertionError("tearDownAfterClass() method missing...");
+			}
+	}
 	
 	@Before("call(URL.new(..))")
 	public  void call1(JoinPoint jp) {

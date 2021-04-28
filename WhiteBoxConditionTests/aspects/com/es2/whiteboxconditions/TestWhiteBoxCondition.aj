@@ -6,18 +6,18 @@ import org.aspectj.lang.annotation.Before;
 
 public aspect TestWhiteBoxCondition {
 	String[] methodsAndParameters = {
-			"Missing test that validates evaluateScoreTemperature() 1º condition: score true",
-			"Missing test that validates evaluateScoreTemperature() 1º condition: score false",
-			"Missing test that validates evaluateScoreTemperature() 1º condition: temperature true",
-			"Missing test that validates evaluateScoreTemperature() 1º condition: temperature false",
-			"Missing test that validates evaluateScoreTemperature() 2º condition: score true",
-			"Missing test that validates evaluateScoreTemperature() 2º condition: score false",
-			"Missing test that validates evaluateScoreTemperature() 2º condition: temperature true",
-			"Missing test that validates evaluateScoreTemperature() 2º condition: temperature false",
-			"Missing test that validates evaluateIfCouldBeAcceptedAtDisco() condition: dressStyle true",
-			"Missing test that validates evaluateIfCouldBeAcceptedAtDisco() condition: dressStyle false",
-			"Missing test that validates evaluateIfCouldBeAcceptedAtDisco() condition: talkSkill true",
-			"Missing test that validates evaluateIfCouldBeAcceptedAtDisco() condition: talkSkill false"
+			"Missing test that validates evaluateScoreTemperature() 1º condition: check 1 incomplete",
+			"Missing test that validates evaluateScoreTemperature() 1º condition: check 2 incomplete",
+			"Missing test that validates evaluateScoreTemperature() 1º condition: check 3 incomplete",
+			"Missing test that validates evaluateScoreTemperature() 1º condition: check 4 incomplete",
+			"Missing test that validates evaluateScoreTemperature() 2º condition: check 1 incomplete",
+			"Missing test that validates evaluateScoreTemperature() 2º condition: check 2 incomplete",
+			"Missing test that validates evaluateScoreTemperature() 2º condition: check 3 incomplete",
+			"Missing test that validates evaluateScoreTemperature() 2º condition: check 4 incomplete",
+			"Missing test that validates evaluateIfCouldBeAcceptedAtDisco() condition: check 1 incomplete",
+			"Missing test that validates evaluateIfCouldBeAcceptedAtDisco() condition: check 2 incomplete",
+			"Missing test that validates evaluateIfCouldBeAcceptedAtDisco() condition: check 3 incomplete",
+			"Missing test that validates evaluateIfCouldBeAcceptedAtDisco() condition: check 4 incomplete"
 	};
 
 	@Before("execution(* Rating.evaluateScoreTemperature(..))")
@@ -60,7 +60,7 @@ public aspect TestWhiteBoxCondition {
 	
 	
 
-	@Before("execution(* tearDownAfterClass(..))")
+	@Before("execution(End.new(..))")
 	public  void calln() {
 		String errors = "";
 

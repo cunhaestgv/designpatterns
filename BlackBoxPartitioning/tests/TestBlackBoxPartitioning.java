@@ -24,6 +24,7 @@ class TestBlackBoxPartitioning {
 	@AfterAll
 	static void tearDownAfterClass() throws Exception {
 		System.setOut(System.out);
+		new End();
 	}
 
 	@BeforeEach
@@ -34,6 +35,7 @@ class TestBlackBoxPartitioning {
 	void tearDown() throws Exception {
 	}
 
+	
 	@Test
 	void testDieConstructor() {
 		Die d = new Die();

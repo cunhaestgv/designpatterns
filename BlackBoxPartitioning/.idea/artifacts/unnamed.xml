@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="unnamed">
+    <output-path>$PROJECT_DIR$/out/artifacts/unnamed</output-path>
+    <root id="archive" name="unnamed.jar">
+      <element id="module-output" name="BlackBoxPartitioning" />
+      <element id="module-test-output" name="BlackBoxPartitioning" />
+    </root>
+  </artifact>
+</component>

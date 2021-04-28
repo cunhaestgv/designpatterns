@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="unnamed" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fd93cd47-ab63-457a-a210-e319b8d1a58b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../WebServiceServerTest/src/main/java/FinalAssignmentWebService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WebServiceServerTest/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestBlackBoxPartitioning.manifest" beforeDir="false" afterPath="$PROJECT_DIR$/TestBlackBoxPartitioning.manifest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aspects/com/es2/blackboxpartitioning/TestBlackBoxPartitioningAspect.aj" beforeDir="false" afterPath="$PROJECT_DIR$/aspects/com/es2/blackboxpartitioning/TestBlackBoxPartitioningAspect.aj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/bin/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/TestBlackBoxPartitioning.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/TestBlackBoxPartitioning.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DecoratorPattern/src/com/es2/decorator/CommonWordsValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DecoratorPattern/src/com/es2/decorator/CommonWordsValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DecoratorPattern/tests/TestDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DecoratorPattern/tests/TestDecorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DecoratorPatternAspects/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../DecoratorPatternAspects/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DecoratorPatternAspects/TestDecorator.manifest" beforeDir="false" afterPath="$PROJECT_DIR$/../DecoratorPatternAspects/TestDecorator.manifest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DecoratorPatternAspects/src/com/es2/decorator/CommonWordsValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DecoratorPatternAspects/src/com/es2/decorator/CommonWordsValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DecoratorPatternAspects/src/com/es2/decorator/TestDecorator.aj" beforeDir="false" afterPath="$PROJECT_DIR$/../DecoratorPatternAspects/src/com/es2/decorator/TestDecorator.aj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DecoratorPatternTest/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/../DecoratorPatternTest/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DecoratorPatternTest/src/DecoratorPatternTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DecoratorPatternTest/src/DecoratorPatternTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SingletonPatternAspects/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/../SingletonPatternAspects/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SingletonPatternAspects/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../SingletonPatternAspects/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SingletonPatternAspects/Registry.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SingletonPatternAspects/TestSingleton.manifest" beforeDir="false" afterPath="$PROJECT_DIR$/../SingletonPatternAspects/TestSingleton.manifest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SingletonPatternAspects/bin/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../SingletonPatternAspects/bin/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SingletonPatternAspects/resources/SingletonPattern.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SingletonPatternAspects/src/com/es2/singleton/SingletonPatternAspect.aj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SingletonPatternTests/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/../SingletonPatternTests/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SingletonPatternTests/src/SingletonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SingletonPatternTests/src/TestSingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebServiceServerTest/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/../WebServiceServerTest/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebServiceServerTest/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../WebServiceServerTest/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebServiceServerTest/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../WebServiceServerTest/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebServiceServerTest/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../WebServiceServerTest/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebServiceTestClient/src/test/java/TestWebService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WebServiceTestClient/src/test/java/TestWebService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebServiceTestClientAspect/src/com/es2/wsclient/WebServiceTest.aj" beforeDir="false" afterPath="$PROJECT_DIR$/../WebServiceTestClientAspect/src/com/es2/wsclient/WebServiceTest.aj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WhiteBoxConditionTests/TestWhiteBoxCondition.manifest" beforeDir="false" afterPath="$PROJECT_DIR$/../WhiteBoxConditionTests/TestWhiteBoxCondition.manifest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WhiteBoxConditionTests/aspects/com/es2/whiteboxconditions/TestWhiteBoxCondition.aj" beforeDir="false" afterPath="$PROJECT_DIR$/../WhiteBoxConditionTests/aspects/com/es2/whiteboxconditions/TestWhiteBoxCondition.aj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WhiteBoxConditionTests/bin/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../WhiteBoxConditionTests/bin/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WhiteBoxConditionTests/tests/TestWhiteBoxCondition.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WhiteBoxConditionTests/tests/TestWhiteBoxCondition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WhiteBoxMultipleConditionsAspects/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/../WhiteBoxMultipleConditionsAspects/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WhiteBoxMultipleConditionsAspects/TestWhiteBoxMultipleConditions.manifest" beforeDir="false" afterPath="$PROJECT_DIR$/../WhiteBoxMultipleConditionsAspects/TestWhiteBoxMultipleConditions.manifest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WhiteBoxMultipleConditionsAspects/aspects/com/es2/multipleconditions/TestWhiteBoxCondition.aj" beforeDir="false" afterPath="$PROJECT_DIR$/../WhiteBoxMultipleConditionsAspects/aspects/com/es2/multipleconditions/TestWhiteBoxCondition.aj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WhiteBoxMultipleConditionsAspects/bin/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../WhiteBoxMultipleConditionsAspects/bin/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WhiteBoxMultipleConditionsAspects/resources/WhiteBoxMultipleConditionsSource.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WhiteBoxMultipleConditionsAspects/src/com/es2/multipleconditions/DriveUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WhiteBoxMultipleConditionsAspects/src/com/es2/multipleconditions/DriveUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WhiteBoxMultipleConditionsAspects/src/com/es2/multipleconditions/ListUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WhiteBoxMultipleConditionsAspects/src/com/es2/multipleconditions/ListUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WhiteBoxMultipleConditionsAspects/tests/TestWhiteBoxMultipleConditions.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WhiteBoxMultipleConditionsAspects/tests/TestWhiteBoxMultipleConditions.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/bin/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/End.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/TestBlackBoxPartitioning.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="229">
+              <caret line="58" column="5" lean-forward="true" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/End.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1260" />
+    <option name="height" value="732" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="BlackBoxPartitioning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BlackBoxPartitioning" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BlackBoxPartitioning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BlackBoxPartitioning" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BlackBoxPartitioning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BlackBoxPartitioning" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BlackBoxPartitioning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BlackBoxPartitioning" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+              <item name="unnamed" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BlackBoxPartitioning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BlackBoxPartitioning" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BlackBoxPartitioning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BlackBoxPartitioning" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1588415614417" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fd93cd47-ab63-457a-a210-e319b8d1a58b" name="Default Changelist" comment="" />
+      <created>1588266218404</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588266218404</updated>
+      <workItem from="1588266228357" duration="968000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="968000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1260" height="732" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24958949" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.3296875" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/End.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/TestBlackBoxPartitioning.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="58" column="5" lean-forward="true" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>unnamed</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>aspectjrt-1.9.2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>BlackBoxPartitioning</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>org.junit.jupiter:junit-jupiter:5.6.1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

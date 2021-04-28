@@ -1,0 +1,12 @@
+grant codeBase "file:/home/cacunha/breakit/tests/-" {
+        permission java.security.AllPermission "", "";
+        permission java.lang.RuntimePermission "setIO";
+};
+
+
+
+grant codeBase "file:/home/cacunha/breakit/files/-" {
+        permission java.net.SocketPermission "localhost:1024-", "accept,connect,listen,resolve";
+        permission java.io.FilePermission "runningTest.tmp", "read, write, delete";
+        permission java.lang.RuntimePermission "setIO";
+};

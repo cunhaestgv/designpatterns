@@ -3,9 +3,7 @@ import static org.junit.jupiter.api.Assertions.*;
 import java.util.ArrayList;
 
 import org.junit.jupiter.api.AfterAll;
-import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import com.es2.multipleconditions.CourseUtils;
@@ -17,21 +15,11 @@ import com.es2.multipleconditions.PersonCannotDriveException;
 
 class TestWhiteBoxMultipleConditions {
 
-	@BeforeAll
-	static void setUpBeforeClass() throws Exception {
-	}
 
 	@AfterAll
-	static void tearDownAfterClass() throws Exception {
-	}
-
-	@BeforeEach
-	void setUp() throws Exception {
-	}
-
-	@AfterEach
-	void tearDown() throws Exception {
-	}
+	static void tearDownAfterClass() {
+		new End();
+	}	
 
 	@Test
 	void testOverAge() throws PersonCannotDriveException {
@@ -42,9 +30,10 @@ class TestWhiteBoxMultipleConditions {
 	@Test
 	void testUnderAge() throws PersonCannotDriveException {
 		Person p = new Person("Ana",17);
-		assertThrows(PersonCannotDriveException.class, ()->{
+		Assertions.assertThrows(PersonCannotDriveException.class, ()-> {
 			DriveUtils.assertConditionsToDrive(p);
 		});
+		
 	}
 	
 	@Test

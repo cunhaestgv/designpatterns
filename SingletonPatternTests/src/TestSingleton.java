@@ -1,12 +1,14 @@
 import static org.junit.jupiter.api.Assertions.*;
 
+import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
+import com.es2.singleton.End;
 import com.es2.singleton.Registry;
 
-class SingletonTest {
+class TestSingleton {
 
 	@BeforeEach
 	void setUp() throws Exception {
@@ -24,6 +26,11 @@ class SingletonTest {
 	void testConnectionString() {
 		Registry.getInstance().setConnectionString("jdbc://sql");
 		assertEquals("jdbc://sql", Registry.getInstance().getConnectionString());
+	}
+	
+	@AfterAll
+	static void testEnd() {
+		End e = new End();
 	}
 
 }

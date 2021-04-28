@@ -22,10 +22,13 @@ public class CommonWordsValidator extends Decorator {
 	
 	@Override
 	public void auth(String username, String password) throws AuthException, IOException {
-		String dicWord = getHTTPRequest(password);
-		if(dicWord.length()<10)
+		try {
+			getHTTPRequest(password);				
+		}catch(IOException e) {
 			throw new AuthException();
-		else super.auth(username, password);
+		}
+		
+		super.auth(username, password);
 	}
 	
 	/**
@@ -45,7 +48,7 @@ public class CommonWordsValidator extends Decorator {
 	 * }</pre>
 	 * @param word represents the word to be searched
 	 * @return result in format JSON
-	 * @throws IOException thrown when the connection cannot be done successfully
+	 * @throws IOException thrown when the connection cannot be done successfully or word not exists
 	 */
 	public String getHTTPRequest(String word) throws IOException {
 		 StringBuilder result = new StringBuilder();

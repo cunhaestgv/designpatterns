@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:estgv" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="19ccf734-3433-4cf8-9909-df78ecac46b5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../WebServiceServerTest/src/main/java/FinalAssignmentWebService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WebServiceServerTest/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BlackBoxPartitioning/TestBlackBoxPartitioning.manifest" beforeDir="false" afterPath="$PROJECT_DIR$/../BlackBoxPartitioning/TestBlackBoxPartitioning.manifest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BlackBoxPartitioning/aspects/com/es2/blackboxpartitioning/TestBlackBoxPartitioningAspect.aj" beforeDir="false" afterPath="$PROJECT_DIR$/../BlackBoxPartitioning/aspects/com/es2/blackboxpartitioning/TestBlackBoxPartitioningAspect.aj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BlackBoxPartitioning/bin/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../BlackBoxPartitioning/bin/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BlackBoxPartitioning/tests/TestBlackBoxPartitioning.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BlackBoxPartitioning/tests/TestBlackBoxPartitioning.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DecoratorPattern/src/com/es2/decorator/CommonWordsValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DecoratorPattern/src/com/es2/decorator/CommonWordsValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DecoratorPattern/tests/TestDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DecoratorPattern/tests/TestDecorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DecoratorPatternAspects/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../DecoratorPatternAspects/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DecoratorPatternAspects/TestDecorator.manifest" beforeDir="false" afterPath="$PROJECT_DIR$/../DecoratorPatternAspects/TestDecorator.manifest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DecoratorPatternAspects/src/com/es2/decorator/CommonWordsValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DecoratorPatternAspects/src/com/es2/decorator/CommonWordsValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DecoratorPatternAspects/src/com/es2/decorator/TestDecorator.aj" beforeDir="false" afterPath="$PROJECT_DIR$/../DecoratorPatternAspects/src/com/es2/decorator/TestDecorator.aj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DecoratorPatternTest/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/../DecoratorPatternTest/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DecoratorPatternTest/src/DecoratorPatternTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DecoratorPatternTest/src/DecoratorPatternTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SingletonPatternAspects/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/../SingletonPatternAspects/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SingletonPatternAspects/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../SingletonPatternAspects/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SingletonPatternAspects/TestSingleton.manifest" beforeDir="false" afterPath="$PROJECT_DIR$/../SingletonPatternAspects/TestSingleton.manifest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SingletonPatternAspects/bin/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../SingletonPatternAspects/bin/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SingletonPatternAspects/resources/SingletonPattern.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SingletonPatternAspects/src/com/es2/singleton/Registry.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SingletonPatternAspects/src/com/es2/singleton/SingletonPatternAspect.aj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SingletonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestSingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebServiceServerTest/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/../WebServiceServerTest/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebServiceServerTest/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../WebServiceServerTest/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebServiceServerTest/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../WebServiceServerTest/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebServiceServerTest/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../WebServiceServerTest/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebServiceTestClient/src/test/java/TestWebService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WebServiceTestClient/src/test/java/TestWebService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebServiceTestClientAspect/src/com/es2/wsclient/WebServiceTest.aj" beforeDir="false" afterPath="$PROJECT_DIR$/../WebServiceTestClientAspect/src/com/es2/wsclient/WebServiceTest.aj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WhiteBoxConditionTests/TestWhiteBoxCondition.manifest" beforeDir="false" afterPath="$PROJECT_DIR$/../WhiteBoxConditionTests/TestWhiteBoxCondition.manifest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WhiteBoxConditionTests/aspects/com/es2/whiteboxconditions/TestWhiteBoxCondition.aj" beforeDir="false" afterPath="$PROJECT_DIR$/../WhiteBoxConditionTests/aspects/com/es2/whiteboxconditions/TestWhiteBoxCondition.aj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WhiteBoxConditionTests/bin/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../WhiteBoxConditionTests/bin/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WhiteBoxConditionTests/tests/TestWhiteBoxCondition.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WhiteBoxConditionTests/tests/TestWhiteBoxCondition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WhiteBoxMultipleConditionsAspects/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/../WhiteBoxMultipleConditionsAspects/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WhiteBoxMultipleConditionsAspects/TestWhiteBoxMultipleConditions.manifest" beforeDir="false" afterPath="$PROJECT_DIR$/../WhiteBoxMultipleConditionsAspects/TestWhiteBoxMultipleConditions.manifest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WhiteBoxMultipleConditionsAspects/aspects/com/es2/multipleconditions/TestWhiteBoxCondition.aj" beforeDir="false" afterPath="$PROJECT_DIR$/../WhiteBoxMultipleConditionsAspects/aspects/com/es2/multipleconditions/TestWhiteBoxCondition.aj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WhiteBoxMultipleConditionsAspects/bin/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../WhiteBoxMultipleConditionsAspects/bin/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WhiteBoxMultipleConditionsAspects/resources/WhiteBoxMultipleConditionsSource.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WhiteBoxMultipleConditionsAspects/src/com/es2/multipleconditions/DriveUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WhiteBoxMultipleConditionsAspects/src/com/es2/multipleconditions/DriveUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WhiteBoxMultipleConditionsAspects/src/com/es2/multipleconditions/ListUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WhiteBoxMultipleConditionsAspects/src/com/es2/multipleconditions/ListUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WhiteBoxMultipleConditionsAspects/tests/TestWhiteBoxMultipleConditions.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WhiteBoxMultipleConditionsAspects/tests/TestWhiteBoxMultipleConditions.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1rWjurHCQRMB5d4IlfQ1gyu98OS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.1150748" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="19ccf734-3433-4cf8-9909-df78ecac46b5" name="Default Changelist" comment="" />
+      <created>1619098970114</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1619098970114</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="416" y="25" key="SettingsEditor" timestamp="1619098994248">
+      <screen x="0" y="25" width="1440" height="804" />
+    </state>
+    <state x="416" y="25" key="SettingsEditor/0.25.1440.804/1440.25.1920.1055@0.25.1440.804" timestamp="1619098994248" />
+  </component>
+</project>

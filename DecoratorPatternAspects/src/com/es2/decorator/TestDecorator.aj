@@ -1,14 +1,19 @@
 package com.es2.decorator;
+import java.io.IOException;
+
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.AfterReturning;
+import org.aspectj.lang.annotation.AfterThrowing;
+import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;
 
-public aspect TestDecorator {
+@Aspect
+public class TestDecorator {
 	String[] methodsAndParameters = {
 			"Missing test that validates condition of Auth.auth() for true",
 			"Missing test that validates condition of Auth.auth() for false",
-			"Missing test that validates condition of CommonWordsValidator.auth() for true",
-			"Missing test that validates condition of CommonWordsValidator.auth() for false"
+			"Missing test that validates condition of CommonWordsValidator.auth() for exception 1",
+			"Missing test that validates condition of CommonWordsValidator.auth() for exception 2"
 	};
 
 	@Before("execution(* Auth.auth(..))")
@@ -23,13 +28,15 @@ public aspect TestDecorator {
 	
 	@AfterReturning(pointcut= "execution(* CommonWordsValidator.getHTTPRequest(..))",returning="ret")
 	public void call2(String ret){
-		if(ret.length()<10)
-			methodsAndParameters[2] = null;
-		else
 			methodsAndParameters[3] = null;
 	}
-
-	@Before("execution(* tearDownAfterClass(..))")
+	
+	@AfterThrowing(pointcut = "execution(* CommonWordsValidator.getHTTPRequest(..))", throwing = "e")
+    public void myAfterThrowing(JoinPoint joinPoint, IOException e) {    
+		methodsAndParameters[2] = null;
+    }
+	
+	@Before("execution(End.new(..))")
 	public  void calln() {
 		String errors = "";
 
@@ -38,5 +45,6 @@ public aspect TestDecorator {
 
 		if(errors != "") 
 			throw new RuntimeException(errors);
+		
 	}
 }

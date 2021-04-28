@@ -22,10 +22,13 @@ public class CommonWordsValidator extends Decorator {
 	
 	@Override
 	public void auth(String username, String password) throws AuthException, IOException {
-		String dicWord = getHTTPRequest(password);
-		if(dicWord.length()<10)
+		try {
+			getHTTPRequest(password);				
+		}catch(IOException e) {
 			throw new AuthException();
-		else super.auth(username, password);
+		}
+		
+		super.auth(username, password);
 	}
 	
 	/**

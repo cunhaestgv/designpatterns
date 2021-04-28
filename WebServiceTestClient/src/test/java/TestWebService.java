@@ -37,7 +37,7 @@ class TestWebService {
 
 	@Test
 	void testClientDetailsOK() throws IOException {
-		URL url = new URL("http://193.137.7.39:8080/client/2");
+		URL url = new URL("http://localhost:8080/client/2");
 		HttpURLConnection con = (HttpURLConnection) url.openConnection();
 		con.setRequestMethod("GET");
 		con.setRequestProperty("Accept", "application/json");
@@ -62,7 +62,7 @@ class TestWebService {
 
 	@Test
 	void testContentType() throws IOException {
-		URL url = new URL("http://193.137.7.39:8080/client/-1");
+		URL url = new URL("http://localhost:8080/client/-1");
 		HttpURLConnection con = (HttpURLConnection) url.openConnection();
 		con.setRequestMethod("GET");
 		con.setRequestProperty("Accept", "application/json");
@@ -74,7 +74,7 @@ class TestWebService {
 	
 	@Test
 	void testClientNotExists() throws IOException {
-		URL url = new URL("http://193.137.7.39:8080/client/-1");
+		URL url = new URL("http://localhost:8080/client/-1");
 		HttpURLConnection con = (HttpURLConnection) url.openConnection();
 		con.setRequestMethod("GET");
 		con.setRequestProperty("Accept", "application/json");
@@ -85,7 +85,7 @@ class TestWebService {
 	
 	@Test
 	void testClientAuthenticationError1() throws IOException {
-		URL url = new URL("http://193.137.7.39:8080/client/1");
+		URL url = new URL("http://localhost:8080/client/1");
 		HttpURLConnection con = (HttpURLConnection) url.openConnection();
 		con.setRequestMethod("GET");
 		con.setRequestProperty("Accept", "application/json");
@@ -95,7 +95,7 @@ class TestWebService {
 	
 	@Test
 	void testClientAuthenticationError2() throws IOException {
-		URL url = new URL("http://193.137.7.39:8080/client/1");
+		URL url = new URL("http://localhost:8080/client/1");
 		HttpURLConnection con = (HttpURLConnection) url.openConnection();
 		con.setRequestMethod("GET");
 		con.setRequestProperty("Accept", "application/json");

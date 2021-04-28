@@ -1,4 +1,4 @@
-package com.es2.singleton;
+import com.es2.singleton.*;
 
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.Before;
@@ -49,12 +49,12 @@ public aspect SingletonPatternAspect {
 		if(args[0] == null) methodsAndParameters[6] = null;
 		
 	}
-	@Before("call(* java.lang.reflect.Modifier.isPrivate(..)) || call(* java.lang.reflect.Modifier.isPublic(..))")
+	/*@Before("call(* java.lang.reflect.Modifier.isPrivate(..)) || call(* java.lang.reflect.Modifier.isPublic(..))")
 	public void call8(){
 		methodsAndParameters[7] = null;
-	}
+	}*/
 
-	@Before("execution(* tearDownAfterClass(..))")
+	@Before("execution(End.new(..))")
 	public  void calln() {
 		String errors = "";
 
@@ -63,6 +63,7 @@ public aspect SingletonPatternAspect {
 
 		if(errors != "") 
 			throw new RuntimeException(errors);
+		
 	}
 
 
